@@ -26,10 +26,10 @@ var ImagePickerOriginal = /** @class */ (function (_super) {
     ImagePickerOriginal.prototype.hasReadPermission = function () { return cordova(this, "hasReadPermission", { "platforms": ["Android"] }, arguments); };
     ImagePickerOriginal.prototype.requestReadPermission = function () { return cordova(this, "requestReadPermission", { "platforms": ["Android"] }, arguments); };
     ImagePickerOriginal.pluginName = "ImagePicker";
-    ImagePickerOriginal.plugin = "cordova-plugin-telerik-imagepicker";
+    ImagePickerOriginal.plugin = "cordova-plugin-matisse-imagepicker";
     ImagePickerOriginal.pluginRef = "window.imagePicker";
-    ImagePickerOriginal.repo = "https://github.com/Telerik-Verified-Plugins/ImagePicker";
-    ImagePickerOriginal.install = "ionic cordova plugin add cordova-plugin-telerik-imagepicker --variable PHOTO_LIBRARY_USAGE_DESCRIPTION=\"your usage message\"";
+    ImagePickerOriginal.repo = "https://github.com/rodgh522/matisse-imagepicker";
+    ImagePickerOriginal.install = "ionic cordova plugin add https://github.com/rodgh522/cordova-plugin-mattise-imagepicker.git --variable PHOTO_LIBRARY_USAGE_DESCRIPTION=\"your usage message\"";
     ImagePickerOriginal.installVariables = ["PHOTO_LIBRARY_USAGE_DESCRIPTION"];
     ImagePickerOriginal.platforms = ["Android", "iOS"];
     return ImagePickerOriginal;
